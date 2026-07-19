@@ -1,0 +1,32 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+    <pattern id="stitchCap" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="14" stroke="#1C1A17" stroke-width="1.4" stroke-dasharray="4 4" opacity="0.12"/>
+    </pattern></defs>
+    <rect width="1200" height="800" fill="#F7F3EC"/>
+    <rect width="1200" height="800" fill="url(%23stitchCap)"/>
+    <rect x="14" y="14" width="1172" height="772" fill="none" stroke="#1C1A17" stroke-width="1" opacity="0.18"/>
+    <!-- dragon silhouette: sinuous serpent body -->
+    <path d="M 120.0 680.0
+             C 72.0 520.0, 240.0 496.0, 264.0 400.0
+             C 288.0 304.0, 132.0 280.0, 168.00000000000003 176.0
+             C 192.0 112.00000000000001, 312.0 80.0, 384.0 112.00000000000001"
+          fill="none" stroke="#7C2A2A" stroke-width="2.5" opacity="0.55" stroke-linecap="round"/>
+    <!-- scale ticks along the spine -->
+    <g stroke="#B8912E" stroke-width="1.2" opacity="0.55">
+      <line x1="132.0" y1="640.0" x2="192.0" y2="624.0"/>
+      <line x1="120.0" y1="576.0" x2="192.0" y2="560.0"/>
+      <line x1="168.00000000000003" y1="496.0" x2="240.0" y2="480.0"/>
+      <line x1="252.0" y1="416.0" x2="324.0" y2="408.0"/>
+      <line x1="240.0" y1="336.0" x2="312.0" y2="336.0"/>
+      <line x1="156.0" y1="240.0" x2="228.0" y2="224.00000000000003"/>
+    </g>
+    <!-- horn -->
+    <path d="M 372.0 104.0 C 432.0 64.0, 456.0 16.0, 432.0 -16.0"
+          fill="none" stroke="#5B6B4F" stroke-width="2" opacity="0.6" stroke-linecap="round"/>
+    <!-- lightning accent, sparse -->
+    <path d="M 792.0 144.0 L 864.0 288.0 L 816.0000000000001 296.0 L 912.0 463.99999999999994"
+          fill="none" stroke="#7C2A2A" stroke-width="1.4" opacity="0.4"/>
+    <text x="744.0" y="704.0" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="16.8" letter-spacing="2" fill="#1C1A17" opacity="0.55">AVANT-GUARD COLLECTION — SS 2026</text>
+    <text x="744.0" y="112.00000000000001" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="38.4" fill="#7C2A2A">Prophetic's Halo</text>
+  </svg>
